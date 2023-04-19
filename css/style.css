@@ -26,8 +26,9 @@
     font-size: 26px;
     margin-left: 70px;
   }
+
   h3 {
-    margin-top: 0px;
+    margin-top: 80px;
     font-size: 26px;
     margin-left: 70px;
   }
@@ -46,7 +47,7 @@
     width: 40%;
     margin-right: 60px;
     height: auto;
-    margin-top: 23%;
+    margin-top: 20%;
     float:right;
   }
   .text4 h3{
@@ -63,15 +64,69 @@
     width: 50%;
     float: left;
   }
+  .text-hobbies img{
+    width: 40%;
+    margin-right: 60px;
+    height: auto;
+    margin-top: 20%;
+    float:right;
+  }
+  .text-hobbies h3{
+    display: inline-flex;
+    margin-top: 80px;
+    font-size: 26px;
+    margin-left: 70px;
+  }
+  .text-hobbies p{
+    display: inline-flex;
+    margin-top: 0px;
+    font-size: 22px;
+    margin-left: 70px; 
+    width: 50%;
+    float: left;
+  }
+
   .text-habilidades h3{
-    margin-left: 70px;
+    display: inline-flex;
+    margin-top: 50px;
+    font-size: 22px;
+    margin-right: 23%; 
+    float: right;
   }
-  .text-habilidades li{
-    margin-left: 70px;
+  .text-habilidades ul, li{
+    margin-top: 0px;
+    font-size: 22px;
+    margin-right: 0px; 
+    width: 50%;
+    float: right;
   }
-  .text-form{
+  .text-habilidades img{
+    width: 40%;
     margin-left: 70px;
+    height: auto;
+    float: left;
   }
+  
+  .curiosidades h3{
+    display: inline-flex;
+    margin-top: 50px;
+    font-size: 22px;
+    margin-right: 23%; 
+  }
+  .curiosidades li{
+    margin-top: 0px;
+    font-size: 22px;
+    margin-right: 0px; 
+    width: 50%;
+  }
+
+  .curiosidades img{
+    width: 40%;
+    margin-left: 7%;
+    float: left;
+    padding: 60px;
+  }
+
   .redes-sociais{
     margin-left: 70px;
     white-space: nowrap;
@@ -89,46 +144,133 @@
     width: 70px;
   }
 }
-
 @media screen and (max-width: 600px) {
-  .imagem img {
-    float: none;
+  body {
+    background-color: rgb(245, 245, 245);
+  }
+  
+  .imagem img{
     width: 100%;
-    margin: 0;
-    text-align: center;
+    height: auto;
+    margin: 0 auto;
+    display: block;
   }
-  .text h1 {
-    font-size: 48px;
-    margin: 20px;
+  
+  .text h1{
+    font-size: 32px;
     text-align: center;
+    margin-top: 30px;
   }
-  .text p {
+  
+  .text p{
+    margin-top: 20px;
     font-size: 16px;
-    margin: 10px;
-    text-align: justify;
+    text-align: center;
   }
-  h2, h3 {
+  
+  h2 {
+    margin-top: 30px;
     font-size: 22px;
-    margin: 10px;
     text-align: center;
   }
-  .text3 img {
+  
+  h3 {
+    margin-top: 30px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .text3 img{
     width: 100%;
     height: auto;
-    float: none;
-    margin: 10px auto;
+    margin: 0 auto;
     display: block;
+    margin-top: 30px;
   }
-  .text3 p {
+  
+  .text3 p{
+    margin-top: 20px;
     font-size: 16px;
-    margin: 10px;
-    text-align: justify;
+    text-align: center;
   }
-  .text4 img {
+  
+  .text4 img{
     width: 100%;
     height: auto;
-    float: none;
-    margin: 10px auto;
+    margin: 0 auto;
     display: block;
+    margin-top: 30px;
   }
+  
+  .text4 h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
   }
+  
+  .text4 p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text-hobbies img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+  }
+  
+  .text-hobbies h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .text-hobbies p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .text-habilidades h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .text-habilidades ul, li{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .text-habilidades img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+  }
+  
+  .curiosidades h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .curiosidades li{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .curiosidades img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
+  }
+}
