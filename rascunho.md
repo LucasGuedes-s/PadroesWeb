@@ -27,10 +27,10 @@
     margin-left: 70px;
   }
 
-  .text3 h3 {
-    margin-top: 0px;
+  h3 {
+    margin-top: 80px;
     font-size: 26px;
-    margin-left: 600px;
+    margin-left: 70px;
   }
   .text3 img{
     width: 40%;
@@ -39,22 +39,20 @@
     float:left;
   }
   .text3 p{
-    margin-top: 100px;
+    margin-top: 0px;
     font-size: 22px;
-    margin-left: 70px; 
-    margin-right: 40px; 
-
+    margin-right: 70px; 
    }
-
   .text4 img{
     width: 40%;
     margin-right: 60px;
     height: auto;
-    margin-top: 0%;
+    margin-top: 20%;
     float:right;
   }
   .text4 h3{
-    margin-top: 250px;
+    display: inline-flex;
+    margin-top: 80px;
     font-size: 26px;
     margin-left: 70px;
   }
@@ -66,15 +64,16 @@
     width: 50%;
     float: left;
   }
-
   .text-hobbies img{
     width: 40%;
     margin-right: 60px;
     height: auto;
+    margin-top: 20%;
     float:right;
   }
   .text-hobbies h3{
-    margin-top: 30%;
+    display: inline-flex;
+    margin-top: 80px;
     font-size: 26px;
     margin-left: 70px;
   }
@@ -87,10 +86,12 @@
     float: left;
   }
 
-  .text-curiosidades h3{
+  .text-habilidades h3{
     display: inline-flex;
-    margin-top: 120px;
-    font-size: 26px;
+    margin-top: 50px;
+    font-size: 22px;
+    margin-right: 23%; 
+    float: right;
   }
   .text-curiosidades ul, li{
     margin-top: 0px;
@@ -105,17 +106,13 @@
     height: auto;
     float: left;
   }
-  .redes h3{
-    margin-left:55%;
-    margin-top: 12%;
-    font-size: 26px;
-  }
+  
   .redes-sociais{
     margin-left: 70px;
     white-space: nowrap;
     float: left;
     padding: 5px;
-    margin-top: 50px;
+    margin-left: 70px;
     width: 50px;
   }
   .redes-sociais2{
@@ -123,7 +120,7 @@
     white-space: nowrap;
     float: left;
     padding: 0px;
-    margin-top: 50px;
+    margin: 0px;
     width: 70px;
   }
 }
@@ -133,7 +130,7 @@
   }
   
   .imagem img{
-    width: 37%;
+    width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
@@ -210,44 +207,50 @@
     text-align: center;
     margin-top: 30px;
   }
+  
   .text-hobbies p{
     font-size: 16px;
     text-align: center;
     margin-top: 20px;
   }
   
-  .text-curiosidades h3{
+  .text-habilidades h3{
     font-size: 20px;
     text-align: center;
     margin-top: 30px;
   }
-  .text-curiosidades ul, li{
+  
+  .text-habilidades ul, li{
     margin-top: 20px;
     font-size: 16px;
     text-align: center;
   }
-  .text-curiosidades img{
+  
+  .text-habilidades img{
     width: 100%;
     height: auto;
     margin: 0 auto;
     display: block;
     margin-top: 30px;
   }
-
-  .redes-sociais{
-    margin-left: 70px;
-    white-space: nowrap;
-    float: left;
-    padding: 5px;
-    margin-left: 70px;
-    width: 50px;
+  
+  .curiosidades h3{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
   }
-  .redes-sociais2{
-    margin-left: 70px;
-    white-space: nowrap;
-    float: left;
-    padding: 0px;
-    margin: 0px;
-    width: 70px;
+  
+  .curiosidades li{
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .curiosidades img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    margin-top: 30px;
   }
 }
