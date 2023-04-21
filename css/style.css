@@ -1,5 +1,5 @@
-/* Estilos para telas com largura entre 601 e 1200 pixels */
-@media screen and (min-width: 601px){
+
+@media screen and (min-width: 901px){
   body {
     background-color: rgb(245, 245, 245);
   }
@@ -88,11 +88,10 @@
     margin-top: 120px;
     font-size: 26px;
   }
-  .text-curiosidades ul, li{
-    font-size: 22px;
-    margin-right: 90px; 
-    width: 50%;
-    float: right;
+  .text-curiosidades li{
+    font-size: 20px;
+    float: left;
+    margin-left: 70px;
   }
   .text-curiosidades img{
     width: 40%;
@@ -100,38 +99,47 @@
     height: auto;
     float: left;
   }
-  .redes h3{
-    margin-left:55%;
-    margin-top: 12%;
-    font-size: 26px;
-  }
   .list-comidas h3{
-    margin-left:55%;
-    margin-top: 12%;
+    margin-left:70px;
+    margin-top: 25%;
     font-size: 26px;
   }
   .list-comidas ul, li{
     font-size: 22px;
-    float: right;
+    margin-left: 35px;
+  }
+  .list-musicas h3{
+    margin-left: 70px;
+    font-size: 26px;
+  }
+  .list-musicas li{
+    color: #000000;
+    margin-left: 70px;
+    text-decoration: none;
   }
   .redes-sociais{
     margin-left: 70px;
     white-space: nowrap;
     float: left;
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 50px;
+  }
+  .redes h3{
+    margin-left:70px;
+    margin-top: 10px;
+    font-size: 26px;
   }
   .redes-sociais2{
     margin-left: 70px;
     white-space: nowrap;
     float: left;
     padding: 0px;
-    margin-top: 50px;
+    margin-top: 10px;
     width: 70px;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
   body {
     background-color: rgb(245, 245, 245);
   }
